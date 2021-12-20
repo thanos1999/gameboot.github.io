@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/customize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <!-- This Is Header -->
+    <section class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="image/logo3.png" style="height: 43px; width: 45px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 popular">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Our Services</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Product</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Our Players</a></li>
+                                </ul>
+                              </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- This Is Slider  -->
+    <section class="slider_part">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/cursoul3.jpg" class="d-block w-100  curimage" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cursoul2.jpg" class="d-block w-100 curimage" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cursoul1.jpg" class="d-block w-100 curimage" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Mission & Vision  -->
+    <section class="mission_vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 style="color: green;border-bottom: 2px solid rgb(91, 185, 127);width: 52%;">Mission & Vision
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/mision.jpg"
+                        style="border: 3px solid green; border-radius: 15px; float: left; margin-right: 4px;">
+                    <p style=" text-align: justify;"><strong>Mission</strong> A PC game, also known as a computer game
+                        or personal computer game, is a type of video game played on a personal computer rather than a
+                        video game console or arcade machine. Its defining characteristics include: more diverse and
+                        user-determined gaming hardware and software; and generally greater capacity in input,
+                        processing, video and audio output. The uncoordinated nature of the PC game market, and now its
+                        lack of physical media, make precisely assessing its size difficult.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/vision.jpg"
+                        style="border: 3px solid green; border-radius: 12px;float: left; margin-right: 4px;">
+                    <p style=" text-align: justify;"> <strong>Vision</strong> A PC game, also known as a computer game
+                        or personal computer game, is a type of video game played on a personal computer rather than a
+                        video game console or arcade machine. Its defining characteristics include: more diverse and
+                        user-determined gaming hardware and software; and generally greater capacity in input,
+                        processing, video and audio output. The uncoordinated nature of the PC game market, and now its
+                        lack of physical media, make precisely assessing its size difficult.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events  -->
+    <section class="news_events" style="background-color: #ddd;">
+        <div class="container">
+            <div class="row" style="padding-top: 15px;">
+                <div class="col-md-3">
+                    <h3 style="color: green;border-bottom: 2px solid rgb(91, 185, 127);width: 55%;">Weapon Info</h3>
+                </div>
+                <div class="col-md-9">
+                    <table class="table table-striped table-bordered table-hover table-md table-success">
+                        <thead>
+                            <tr>
+                                <th>SL</th>
+                                <th>Date</th>
+                                <th>Image</th>
+                                <th>Title</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Saturday</td>
+                                <td> <img src="image/awm.jpg"></td>
+                                <td>This Is AWM</td>
+                                <td> <a href="#" class="btn btn-success">Details</a> </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Sunday</td>
+                                <td><img src="image/wingman.jpg"></td>
+                                <td>This Is Wingman</td>
+                                <td><a href="" class="btn btn-success">Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Monday</td>
+                                <td><img src="image/tt.jpg"></td>
+                                <td>This Is Triple-Taker</td>
+                                <td><a href="" class="btn btn-success">Details</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services  -->
+     <section class="service">
+        <div class="container" style="padding-top: 15px;">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#service" role="tab"
+                        aria-controls="home" aria-selected="true">Our Service</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#product" role="tab"
+                        aria-controls="profile" aria-selected="false">Product</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#player" role="tab"
+                        aria-controls="contact" aria-selected="false">Our Players</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="service" role="tabpanel" aria-labelledby="home-tab">
+                    <h3 style="color: rgb(91, 185, 127);">Our Service</h3>
+                    <p>The idea of games as a service began with the introduction of massively multiplayer online games (MMOs) like World of Warcraft, where the game's subscription model approach assured continued revenues to the developer and publisher to create new content.[1] Over time, new forms of offering continued GaaS revenues have come about. A significant impact on the use of GaaS was the expansion of mobile gaming which often include a social element, such as playing or competing with friends, and with players wanting to buy into GaaS to continue to play with friends. Chinese publisher Tencent was one of the first companies to jump onto this around 2007 and 2008, establishing several different ways to monetize their products as a service to Chinese players, and since has become the world's largest video game publisher in terms of revenue.</p></div>
+                <div class="tab-pane fade" id="product" role="tabpanel" aria-labelledby="profile-tab">
+                    <h3 style="color: rgb(91, 185, 127);">Products</h3>
+                    <p>The idea of games as a service began with the introduction of massively multiplayer online games (MMOs) like World of Warcraft, where the game's subscription model approach assured continued revenues to the developer and publisher to create new content.[1] Over time, new forms of offering continued GaaS revenues have come about. A significant impact on the use of GaaS was the expansion of mobile gaming which often include a social element, such as playing or competing with friends, and with players wanting to buy into GaaS to continue to play with friends. Chinese publisher Tencent was one of the first companies to jump onto this around 2007 and 2008, establishing several different ways to monetize their products as a service to Chinese players, and since has become the world's largest video game publisher in terms of revenue.</p></div>
+                <div class="tab-pane fade" id="player" role="tabpanel" aria-labelledby="contact-tab">
+                    <h3 style="color: rgb(91, 185, 127);">Our Players</h3>
+                    <p>The idea of games as a service began with the introduction of massively multiplayer online games (MMOs) like World of Warcraft, where the game's subscription model approach assured continued revenues to the developer and publisher to create new content.[1] Over time, new forms of offering continued GaaS revenues have come about. A significant impact on the use of GaaS was the expansion of mobile gaming which often include a social element, such as playing or competing with friends, and with players wanting to buy into GaaS to continue to play with friends. Chinese publisher Tencent was one of the first companies to jump onto this around 2007 and 2008, establishing several different ways to monetize their products as a service to Chinese players, and since has become the world's largest video game publisher in terms of revenue.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <section class="footer_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 style="color: white;">Contact Us</h3>
+                    <p style="color:white">Address: Mohammadpur, Dhaka. <br> Emial: hasib@gmail.com <br>Country: Bangladesh</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="color: white;padding-left: 41px;">Follow Us</h3>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/hasibbd71/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+                            <li><a href="https://www.google.com.bd/webhp?tab=rw&authuser=0" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p style="color: red; padding: 50px 0px 10px 0px;">
+                        Copyright &copy; <script>document.write(new Date().getFullYear())</script> @ Hasib
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

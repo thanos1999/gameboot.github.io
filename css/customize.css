@@ -1,0 +1,31 @@
+.header{
+    background-color: rgb(65 177 125);
+}
+.popular{
+    font-size: 21px;
+}
+.footer_part{
+    background-color: #474646;
+    padding: 50px 0px 10px 0px ;
+}
+.social{
+    
+}
+.social ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+.social ul li a{
+    border-radius: 50px;
+}
+.social ul li a i{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #0c74b9;
+    color:rgb(46, 19, 19);
+}
+.social ul li a i:hover{
+    padding: 15px;
+    background-color: #34ca81;
+    color:rgb(160, 27, 27);
+}

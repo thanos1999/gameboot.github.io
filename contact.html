@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/customize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <!-- This Is Header -->
+    <section class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="image/logo3.png" style="height: 43px; width: 45px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 popular">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Our Services</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Product</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Our Players</a></li>
+                                </ul>
+                              </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- About image- Banner  -->
+    <section class="banner">
+        <img src="image/about.jpg" alt="">  
+    </section>
+
+    <!-- About- text  -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7" style="padding-top: 20px;">
+                    <h3 style="border-bottom:2px solid green;width:34%;color: rgb(55, 158, 124);">Send Us A Message</h3>
+                    <form action="">
+                        <div class="row" style="background-color: #ddd;">
+                            <div class="form-group col-md-6">
+                                <label for="name">Name<span style="color: red; font-weight:bold">*</span> </label>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="enter name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email<span style="color: red; font-weight:bold">*</span> </label>
+                                <input type="text" name="email" id="email" class="form-control" placeholder="enter email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone_no">Phone No<span style="color: red; font-weight:bold">*</span> </label>
+                                <input type="number" name="phone_no" id="phone_no" class="form-control" placeholder="enter number">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="add">Address<span style="color: red; font-weight:bold">*</span> </label>
+                                <input type="text" name="add" id="add" class="form-control" placeholder="enter address">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="message">Message<span style="color: red; font-weight:bold">*</span> </label>
+                                <textarea name="message" id="message" rows="5" class="form-control" placeholder="text here"></textarea>
+                            </div>
+                            <div class="form-group col-md-6" style="margin-top: 7px;margin-bottom: 7px;">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </div>
+                    </form>                  
+                </div>
+                <div class="col-md-5" style="padding-top: 20px;">
+                    <h3 style="border-bottom:2px solid green;width:37%;color: rgb(55, 158, 124);">Office Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.4809614149085!2d90.35711541544414!3d23.765881594100602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0a1190da05b%3A0xdf35c9dc33a1ea4c!2sMohammadpur%20Krishi%20Market!5e0!3m2!1sen!2sbd!4v1612078274017!5m2!1sen!2sbd" width="100%" height="334" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <section class="footer_part" style="margin-top: 11px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 style="color: white;">Contact Us</h3>
+                    <p style="color:white">Address: Mohammadpur, Dhaka. <br> Emial: hasib@gmail.com <br>Country: Bangladesh</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="color: white;padding-left: 41px;">Follow Us</h3>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/hasibbd71/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+                            <li><a href="https://www.google.com.bd/webhp?tab=rw&authuser=0" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p style="color: red; padding: 50px 0px 10px 0px;">
+                        Copyright &copy; <script>document.write(new Date().getFullYear())</script> @ Hasib
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
